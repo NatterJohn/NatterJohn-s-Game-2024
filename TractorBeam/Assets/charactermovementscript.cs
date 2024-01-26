@@ -1,16 +1,20 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Timeline;
 using UnityEngine;
 
 public class charactermovementscript : MonoBehaviour
 {
     float snapPosition = 1;
-    double timer, TimePerMove = 0.25;
-    enum characterStates { Waiting , Moving, Rotating }
-    float max_width = 3, max_depth = 3;
+    float timer, TimePerMove = 0.25f,TimePer90Rotate = 0.25f;
+    enum characterStates { Waiting , Moving , Rotating }
+    float max_width = 4, max_depth = 3;
+    int charOrientation = 0;
     characterStates isCurrently = characterStates.Waiting;
-    private Vector3 startLocation, destination;
+    private Vector3 startLocation, desiredLocation;
+    Quaternion startRotation, desiredRotation;
+    private float multiplier;
 
     void Start()
     {
@@ -24,40 +28,67 @@ public class charactermovementscript : MonoBehaviour
         {
             case characterStates.Waiting:
 
-                if (Input.GetKeyDown(KeyCode.S))
+                if (Input.GetKeyDown(KeyCode.W))
                 {
                     setupMovement(transform.position + snapPosition * transform.forward);
                 }
 
-                if (Input.GetKeyDown(KeyCode.A))
-                {
-                    setupMovement(transform.position + snapPosition * transform.right);
-             
-                }
-
                 if (Input.GetKeyDown(KeyCode.D))
                 {
-                    setupMovement(transform.position - snapPosition * transform.right);
-           
+                    setupMovement(transform.position + snapPosition * transform.right);
                 }
 
-                if (Input.GetKeyDown(KeyCode.W))
+                if (Input.GetKeyDown(KeyCode.A))
+                {
+                    setupMovement(transform.position - snapPosition * transform.right);
+                }
+
+                if (Input.GetKeyDown(KeyCode.S))
                 {
                     setupMovement(transform.position - snapPosition * transform.forward);
-                 
+                }
+
+                if (Input.GetKeyDown(KeyCode.UpArrow))
+                {
+                    setupRotation(Vector3.forward);
+                }
+
+                if (Input.GetKeyDown(KeyCode.DownArrow))
+                {
+                    setupRotation(Vector3.back);
+                }
+
+                if (Input.GetKeyDown(KeyCode.LeftArrow))
+                {
+                    setupRotation(Vector3.left);
+                }
+
+                if (Input.GetKeyDown(KeyCode.RightArrow))
+                {
+                    setupRotation(Vector3.right);
                 }
                 break;
-
 
                 case characterStates.Moving:
                 timer += Time.deltaTime;
-                transform.position = Vector3.Lerp(startLocation, destination, Mathf.Sin((float)(Mathf.PI * timer /(TimePerMove*2))));
-                if (timer> TimePerMove)
+                transform.position = Vector3.Lerp(startLocation, desiredLocation, Mathf.Sin((Mathf.PI * timer /(TimePerMove*2))));
+                if (timer > TimePerMove)
                 {
                     isCurrently = characterStates.Waiting;
-                    transform.position = destination;
+                    transform.position = desiredLocation;
                 }
                 break;
+
+                case characterStates.Rotating:
+                timer += Time.deltaTime;
+                transform.rotation = Quaternion.Slerp(startRotation, desiredRotation, timer/(multiplier * TimePer90Rotate));
+                if (timer > multiplier *TimePer90Rotate)
+                {
+                    isCurrently = characterStates.Waiting;
+                    transform.rotation = desiredRotation;
+                }
+                break;
+
         }
     }
 
@@ -68,11 +99,26 @@ public class charactermovementscript : MonoBehaviour
         {
             startLocation = transform.position;
             timer = 0;
-            destination = desiredDestination;
-
+            desiredLocation = desiredDestination;
+            
 
             isCurrently = characterStates.Moving;
         }
+    }
+
+    private void setupRotation(Vector3 direction)
+    {
+        if (Vector3.Dot(transform.forward, -direction) < 0.9f)
+        {
+            startRotation = transform.rotation;
+            timer = 0;
+            desiredRotation = Quaternion.LookRotation(-direction);
+            if (Vector3.Dot(transform.forward, -direction) < -0.9f) multiplier = 2;
+            else multiplier = 1;
+
+            isCurrently = characterStates.Rotating;
+        }
+
     }
 
     private bool isInsideArea(Vector3 desiredDestination)
