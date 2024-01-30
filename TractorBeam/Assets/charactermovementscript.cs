@@ -8,17 +8,20 @@ public class charactermovementscript : MonoBehaviour
 {
     float snapPosition = 1;
     float timer, TimePerMove = 0.25f,TimePer90Rotate = 0.25f;
-    enum characterStates { Waiting , Moving , Rotating }
+    enum characterStates { Waiting , Moving , Rotating , Goal}
     float max_width = 4, max_depth = 3;
     int charOrientation = 0;
     characterStates isCurrently = characterStates.Waiting;
-    private Vector3 startLocation, desiredLocation;
+    private Vector3 startLocation, desiredLocation, goalLocation;
     Quaternion startRotation, desiredRotation;
     private float multiplier;
 
+    GoalStarScript theGoal;
+    textVisibility theText;
     void Start()
     {
-        
+        theGoal = FindAnyObjectByType<GoalStarScript>();
+        theText = GetComponent<textVisibility>();
     }
 
     // Update is called once per frame
@@ -75,7 +78,11 @@ public class charactermovementscript : MonoBehaviour
                 if (timer > TimePerMove)
                 {
                     isCurrently = characterStates.Waiting;
+                    print(transform.position);
                     transform.position = desiredLocation;
+
+                    if (hasReachedGoal())
+                        isCurrently = characterStates.Goal;
                 }
                 break;
 
@@ -89,21 +96,35 @@ public class charactermovementscript : MonoBehaviour
                 }
                 break;
 
+                case characterStates.Goal:
+                //theText.SetActive(true);
+                break;
         }
+    }
+
+    private bool hasReachedGoal()
+    {
+       return  Vector2.Distance(new Vector2(transform.position.x, transform.position.z), new Vector2(theGoal.transform.position.x, theGoal.transform.position.z)) < 0.2f;
     }
 
     private void setupMovement(Vector3 desiredDestination)
     {
-
-        if (!Physics.CheckSphere(desiredDestination, 0.45f) && isInsideArea(desiredDestination))
+        if (isInsideArea(desiredDestination))
         {
-            startLocation = transform.position;
-            timer = 0;
-            desiredLocation = desiredDestination;
-            
+            if (!Physics.CheckSphere(desiredDestination, 0.45f))
+            {
+                startLocation = transform.position;
+                timer = 0;
+                desiredLocation = desiredDestination;
 
-            isCurrently = characterStates.Moving;
+
+                isCurrently = characterStates.Moving;
+            }
+
+
         }
+
+
     }
 
     private void setupRotation(Vector3 direction)
