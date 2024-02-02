@@ -8,6 +8,7 @@ public class charactermovementscript : MonoBehaviour
 {
     float snapPosition = 1;
     float timer, TimePerMove = 0.25f,TimePer90Rotate = 0.25f;
+    float completeTimer, textTime = 3f;
     enum characterStates { Waiting , Moving , Rotating , Goal}
     float max_width = 4, max_depth = 3;
     int charOrientation = 0;
@@ -18,13 +19,19 @@ public class charactermovementscript : MonoBehaviour
 
     GoalStarScript theGoal;
     textVisibility theText;
+    buttonVisibilty theButton;
+    gameOver failure;
     void Start()
     {
         theGoal = FindAnyObjectByType<GoalStarScript>();
-        theText = GetComponent<textVisibility>();
+        theText = FindObjectOfType<textVisibility>();
+        theText.gameObject.SetActive(false);
+        theButton = FindObjectOfType<buttonVisibilty>();
+        theButton.gameObject.SetActive(false);
+        failure = FindObjectOfType<gameOver>();
+        failure.gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
         switch(isCurrently)
@@ -78,7 +85,6 @@ public class charactermovementscript : MonoBehaviour
                 if (timer > TimePerMove)
                 {
                     isCurrently = characterStates.Waiting;
-                    print(transform.position);
                     transform.position = desiredLocation;
 
                     if (hasReachedGoal())
@@ -97,7 +103,13 @@ public class charactermovementscript : MonoBehaviour
                 break;
 
                 case characterStates.Goal:
-                //theText.SetActive(true);
+                completeTimer += Time.deltaTime;
+                theText.gameObject.SetActive(true);
+                if (completeTimer > textTime)
+                {
+                    theText.gameObject.SetActive(false);
+                    theButton.gameObject.SetActive(true);
+                }
                 break;
         }
     }

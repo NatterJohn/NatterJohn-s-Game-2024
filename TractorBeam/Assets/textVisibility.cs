@@ -6,11 +6,9 @@ using UnityEngine.UI;
 
 public class textVisibility : MonoBehaviour
 {
-    public GameObject theText;
-
     void Start()
     {
-        theText.SetActive(false);
+     
     }
 
     
