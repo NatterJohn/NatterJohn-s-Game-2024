@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -6,13 +7,13 @@ using UnityEngine;
 public class timeLeft : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI timerText;
-    [SerializeField] float remainingTime;
+    [SerializeField] public float remainingTime;
     void Update()
     {
         if (remainingTime > 0)
         {
             remainingTime -= Time.deltaTime;
-            if (remainingTime < 10) 
+            if (remainingTime < 6) 
             { 
                 timerText.color = Color.red;
             }
@@ -21,7 +22,6 @@ public class timeLeft : MonoBehaviour
         {
             remainingTime = 0;
         }
-        int simpleTime = Mathf.FloorToInt(remainingTime % 1);
-        timerText.text = string.Format("Time: " + simpleTime);
+        timerText.text = string.Format("Time: " + (int)remainingTime);
     }
 }

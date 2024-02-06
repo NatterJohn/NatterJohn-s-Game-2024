@@ -8,21 +8,24 @@ public class charactermovementscript : MonoBehaviour
 {
     float snapPosition = 1;
     float timer, TimePerMove = 0.25f,TimePer90Rotate = 0.25f;
-    float completeTimer, textTime = 3f;
-    enum characterStates { Waiting , Moving , Rotating , Goal}
+    float completeTimer, textTime = 5f;
+    enum characterStates { Waiting , Moving , Rotating , Goal , Fail }
     float max_width = 4, max_depth = 3;
     int charOrientation = 0;
     characterStates isCurrently = characterStates.Waiting;
     private Vector3 startLocation, desiredLocation, goalLocation;
     Quaternion startRotation, desiredRotation;
     private float multiplier;
+    [SerializeField] timeLeft counter;
 
     GoalStarScript theGoal;
     textVisibility theText;
     buttonVisibilty theButton;
     gameOver failure;
+    RestartButton restart;
     void Start()
     {
+        
         theGoal = FindAnyObjectByType<GoalStarScript>();
         theText = FindObjectOfType<textVisibility>();
         theText.gameObject.SetActive(false);
@@ -30,6 +33,7 @@ public class charactermovementscript : MonoBehaviour
         theButton.gameObject.SetActive(false);
         failure = FindObjectOfType<gameOver>();
         failure.gameObject.SetActive(false);
+        restart = FindObjectOfType<RestartButton>();
     }
 
     void Update()
@@ -77,6 +81,12 @@ public class charactermovementscript : MonoBehaviour
                 {
                     setupRotation(Vector3.right);
                 }
+
+                if(counter.remainingTime == 0)
+                {
+                    isCurrently = characterStates.Fail;
+                }
+
                 break;
 
                 case characterStates.Moving:
@@ -103,11 +113,25 @@ public class charactermovementscript : MonoBehaviour
                 break;
 
                 case characterStates.Goal:
+                counter.gameObject.SetActive(false);
+                //need to deactivate restart button
                 completeTimer += Time.deltaTime;
                 theText.gameObject.SetActive(true);
                 if (completeTimer > textTime)
                 {
                     theText.gameObject.SetActive(false);
+                    theButton.gameObject.SetActive(true);
+                }
+                break;
+
+                case characterStates.Fail:
+                counter.gameObject.SetActive(false);
+                //need to deactivate restart button
+                completeTimer += Time.deltaTime;
+                failure.gameObject.SetActive(true);
+                if (completeTimer > textTime)
+                {
+                    failure.gameObject.SetActive(false);
                     theButton.gameObject.SetActive(true);
                 }
                 break;
