@@ -23,6 +23,8 @@ public class charactermovementscript : MonoBehaviour
     buttonVisibilty theButton;
     gameOver failure;
     RestartButton restart;
+    ReturnButton menuReturn;
+    ReturnButtonAlt altReturn;
     void Start()
     {
         
@@ -34,6 +36,9 @@ public class charactermovementscript : MonoBehaviour
         failure = FindObjectOfType<gameOver>();
         failure.gameObject.SetActive(false);
         restart = FindObjectOfType<RestartButton>();
+        menuReturn = FindObjectOfType<ReturnButton>();
+        menuReturn.gameObject.SetActive(false);
+        altReturn = FindObjectOfType<ReturnButtonAlt>();
     }
 
     void Update()
@@ -114,25 +119,29 @@ public class charactermovementscript : MonoBehaviour
 
                 case characterStates.Goal:
                 counter.gameObject.SetActive(false);
-                //need to deactivate restart button
+                restart.gameObject.SetActive(false);
+                altReturn.gameObject.SetActive(false);
                 completeTimer += Time.deltaTime;
                 theText.gameObject.SetActive(true);
                 if (completeTimer > textTime)
                 {
                     theText.gameObject.SetActive(false);
                     theButton.gameObject.SetActive(true);
+                    menuReturn.gameObject.SetActive(true);
                 }
                 break;
 
                 case characterStates.Fail:
                 counter.gameObject.SetActive(false);
-                //need to deactivate restart button
+                restart.gameObject.SetActive(false);
+                altReturn.gameObject.SetActive(false);
                 completeTimer += Time.deltaTime;
                 failure.gameObject.SetActive(true);
                 if (completeTimer > textTime)
                 {
                     failure.gameObject.SetActive(false);
                     theButton.gameObject.SetActive(true);
+                    menuReturn.gameObject.SetActive(true);
                 }
                 break;
         }
