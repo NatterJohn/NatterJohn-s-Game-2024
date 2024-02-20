@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.ReorderableList;
 using UnityEditor.Timeline;
 using UnityEngine;
 
@@ -9,10 +10,13 @@ public class charactermovementscript : MonoBehaviour
     float snapPosition = 1;
     float timer, TimePerMove = 0.25f,TimePer90Rotate = 0.25f;
     float completeTimer, textTime = 5f;
-    enum characterStates { Waiting , Moving , Rotating , Goal , Fail }
+    enum characterStates { Waiting , Moving , Rotating ,TractorBeamPowerUp, TractorBeamPulling, Goal , Fail }
+    enum asteroidStates { Idle, Starting, Moving }
     float max_width = 4, max_depth = 3;
     int charOrientation = 0;
     characterStates isCurrently = characterStates.Waiting;
+    asteroidStates isNow = asteroidStates.Idle;
+    private ITractorBeamable currentAsteroid;
     private Vector3 startLocation, desiredLocation, goalLocation;
     Quaternion startRotation, desiredRotation;
     private float multiplier;
@@ -25,6 +29,7 @@ public class charactermovementscript : MonoBehaviour
     RestartButton restart;
     ReturnButton menuReturn;
     ReturnButtonAlt altReturn;
+    AsteroidMovementScript theAsteroid;
     void Start()
     {
         
@@ -39,13 +44,15 @@ public class charactermovementscript : MonoBehaviour
         menuReturn = FindObjectOfType<ReturnButton>();
         menuReturn.gameObject.SetActive(false);
         altReturn = FindObjectOfType<ReturnButtonAlt>();
+        theAsteroid = FindAnyObjectByType<AsteroidMovementScript>();
+
     }
 
     void Update()
     {
         switch(isCurrently)
         {
-            case characterStates.Waiting:
+                case characterStates.Waiting:
 
                 if (Input.GetKeyDown(KeyCode.W))
                 {
@@ -87,6 +94,11 @@ public class charactermovementscript : MonoBehaviour
                     setupRotation(Vector3.right);
                 }
 
+                if (Input.GetKeyDown(KeyCode.Space))
+                {
+                    setupBeam();
+                }
+
                 if(counter.remainingTime == 0)
                 {
                     isCurrently = characterStates.Fail;
@@ -117,6 +129,19 @@ public class charactermovementscript : MonoBehaviour
                 }
                 break;
 
+
+                case characterStates.TractorBeamPowerUp:
+
+                timer += Time.deltaTime;
+               
+                if (timer > 0.25f)
+                {
+                    isCurrently = characterStates.TractorBeamPulling;
+                }
+
+
+                break;
+
                 case characterStates.Goal:
                 counter.gameObject.SetActive(false);
                 restart.gameObject.SetActive(false);
@@ -145,6 +170,22 @@ public class charactermovementscript : MonoBehaviour
                 }
                 break;
         }
+        switch(isNow)
+        {
+            case asteroidStates.Idle:
+                
+            break;
+
+            case asteroidStates.Moving:
+                timer += Time.deltaTime;
+                //currentAsteroid = Vector3.Slerp(currentAsteroid, Mathf.Sin((Mathf.PI * timer / (TimePerMove * 2))));
+                if (timer > TimePerMove)
+                {
+                    isNow = asteroidStates.Idle;
+                }
+            break;
+        }
+        
     }
 
     private bool hasReachedGoal()
@@ -172,14 +213,53 @@ public class charactermovementscript : MonoBehaviour
 
     }
 
+    private void setupBeam()
+    {
+        ITractorBeamable asteroidToMove = getMyAsteroid();
+        if (asteroidToMove != null)
+        {
+            asteroidToMove.beamMeUP(this);
+            isNow = asteroidStates.Moving;
+            isCurrently = characterStates.TractorBeamPowerUp;
+            currentAsteroid = asteroidToMove;
+        }
+
+
+    }
+
+    private ITractorBeamable getMyAsteroid()
+    {
+    // check immediately in front (must be empty!!)
+
+        if (Physics.CheckSphere(transform.position + transform.forward, 0.2f))
+            {
+            return null;
+        }
+
+        // check 2 spaces in front for an ItractorBeamable
+
+        Collider[] objectsHit = Physics.OverlapSphere(transform.position + 2 * transform.forward, 0.2f);
+        foreach (Collider collider in objectsHit)
+        {
+            ITractorBeamable newObject = collider.GetComponent<ITractorBeamable>();
+
+            if ( newObject != null )
+            {
+                return newObject;
+            }
+        }
+
+        return null;
+    }
+
     private void setupRotation(Vector3 direction)
     {
-        if (Vector3.Dot(transform.forward, -direction) < 0.9f)
+        if (Vector3.Dot(transform.forward, direction) < 0.9f)
         {
             startRotation = transform.rotation;
             timer = 0;
-            desiredRotation = Quaternion.LookRotation(-direction);
-            if (Vector3.Dot(transform.forward, -direction) < -0.9f) multiplier = 2;
+            desiredRotation = Quaternion.LookRotation(direction);
+            if (Vector3.Dot(transform.forward, direction) < -0.9f) multiplier = 2;
             else multiplier = 1;
 
             isCurrently = characterStates.Rotating;
