@@ -1,8 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting.ReorderableList;
-using UnityEditor.Timeline;
 using UnityEngine;
 
 public class charactermovementscript : MonoBehaviour
@@ -11,11 +9,10 @@ public class charactermovementscript : MonoBehaviour
     float timer, TimePerMove = 0.25f,TimePer90Rotate = 0.25f;
     float completeTimer, textTime = 5f;
     enum characterStates { Waiting , Moving , Rotating ,TractorBeamPowerUp, TractorBeamPulling, Goal , Fail }
-    enum asteroidStates { Idle, Starting, Moving }
     float max_width = 4, max_depth = 3;
     int charOrientation = 0;
     characterStates isCurrently = characterStates.Waiting;
-    asteroidStates isNow = asteroidStates.Idle;
+    
     private ITractorBeamable currentAsteroid;
     private Vector3 startLocation, desiredLocation, goalLocation;
     Quaternion startRotation, desiredRotation;
@@ -25,6 +22,7 @@ public class charactermovementscript : MonoBehaviour
     GoalStarScript theGoal;
     textVisibility theText;
     buttonVisibilty theButton;
+    beamVisibilty theBeam;
     gameOver failure;
     RestartButton restart;
     ReturnButton menuReturn;
@@ -38,6 +36,8 @@ public class charactermovementscript : MonoBehaviour
         theText.gameObject.SetActive(false);
         theButton = FindObjectOfType<buttonVisibilty>();
         theButton.gameObject.SetActive(false);
+        theBeam = FindObjectOfType<beamVisibilty>();
+        theBeam.gameObject.SetActive(false);
         failure = FindObjectOfType<gameOver>();
         failure.gameObject.SetActive(false);
         restart = FindObjectOfType<RestartButton>();
@@ -56,22 +56,22 @@ public class charactermovementscript : MonoBehaviour
 
                 if (Input.GetKeyDown(KeyCode.W))
                 {
-                    setupMovement(transform.position + snapPosition * transform.forward);
+                    setupMovement(transform.position - snapPosition * transform.forward);
                 }
 
                 if (Input.GetKeyDown(KeyCode.D))
                 {
-                    setupMovement(transform.position + snapPosition * transform.right);
+                    setupMovement(transform.position - snapPosition * transform.right);
                 }
 
                 if (Input.GetKeyDown(KeyCode.A))
                 {
-                    setupMovement(transform.position - snapPosition * transform.right);
+                    setupMovement(transform.position + snapPosition * transform.right);
                 }
 
                 if (Input.GetKeyDown(KeyCode.S))
                 {
-                    setupMovement(transform.position - snapPosition * transform.forward);
+                    setupMovement(transform.position + snapPosition * transform.forward);
                 }
 
                 if (Input.GetKeyDown(KeyCode.UpArrow))
@@ -131,12 +131,22 @@ public class charactermovementscript : MonoBehaviour
 
 
                 case characterStates.TractorBeamPowerUp:
-
                 timer += Time.deltaTime;
-               
                 if (timer > 0.25f)
                 {
                     isCurrently = characterStates.TractorBeamPulling;
+                }
+
+
+                break;
+
+                case characterStates.TractorBeamPulling:
+                timer += Time.deltaTime;
+
+                if (timer > 0.25f)
+                {
+                    theBeam.gameObject.SetActive(false);
+                    isCurrently = characterStates.Moving;
                 }
 
 
@@ -170,21 +180,7 @@ public class charactermovementscript : MonoBehaviour
                 }
                 break;
         }
-        switch(isNow)
-        {
-            case asteroidStates.Idle:
-                
-            break;
-
-            case asteroidStates.Moving:
-                timer += Time.deltaTime;
-                //currentAsteroid = Vector3.Slerp(currentAsteroid, Mathf.Sin((Mathf.PI * timer / (TimePerMove * 2))));
-                if (timer > TimePerMove)
-                {
-                    isNow = asteroidStates.Idle;
-                }
-            break;
-        }
+        
         
     }
 
@@ -202,8 +198,6 @@ public class charactermovementscript : MonoBehaviour
                 startLocation = transform.position;
                 timer = 0;
                 desiredLocation = desiredDestination;
-
-
                 isCurrently = characterStates.Moving;
             }
 
@@ -218,8 +212,13 @@ public class charactermovementscript : MonoBehaviour
         ITractorBeamable asteroidToMove = getMyAsteroid();
         if (asteroidToMove != null)
         {
+            timer = 0;
+            timer += Time.deltaTime;
+            if (timer < 0.5f)
+            {
+                theBeam.gameObject.SetActive(true);
+            }
             asteroidToMove.beamMeUP(this);
-            isNow = asteroidStates.Moving;
             isCurrently = characterStates.TractorBeamPowerUp;
             currentAsteroid = asteroidToMove;
         }
