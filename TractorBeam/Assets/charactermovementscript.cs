@@ -28,6 +28,7 @@ public class charactermovementscript : MonoBehaviour
     ReturnButton menuReturn;
     ReturnButtonAlt altReturn;
     AsteroidMovementScript theAsteroid;
+    //gotothegame nextScene;
     void Start()
     {
         
@@ -45,6 +46,8 @@ public class charactermovementscript : MonoBehaviour
         menuReturn.gameObject.SetActive(false);
         altReturn = FindObjectOfType<ReturnButtonAlt>();
         theAsteroid = FindAnyObjectByType<AsteroidMovementScript>();
+        //nextScene = FindObjectOfType<gotothegame>();
+        //nextScene.gameObject.SetActive(false);
 
     }
 
@@ -163,6 +166,7 @@ public class charactermovementscript : MonoBehaviour
                     theText.gameObject.SetActive(false);
                     theButton.gameObject.SetActive(true);
                     menuReturn.gameObject.SetActive(true);
+                    //nextScene.gameObject.SetActive(true);
                 }
                 break;
 
