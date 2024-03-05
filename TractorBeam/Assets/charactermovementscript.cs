@@ -28,7 +28,7 @@ public class charactermovementscript : MonoBehaviour
     ReturnButton menuReturn;
     ReturnButtonAlt altReturn;
     AsteroidMovementScript theAsteroid;
-    //gotothegame nextScene;
+    gotothegame nextScene;
     void Start()
     {
         
@@ -46,8 +46,9 @@ public class charactermovementscript : MonoBehaviour
         menuReturn.gameObject.SetActive(false);
         altReturn = FindObjectOfType<ReturnButtonAlt>();
         theAsteroid = FindAnyObjectByType<AsteroidMovementScript>();
-        //nextScene = FindObjectOfType<gotothegame>();
-        //nextScene.gameObject.SetActive(false);
+        nextScene = FindObjectOfType<gotothegame>();
+        nextScene.gameObject.SetActive(false);
+        counter = FindObjectOfType<timeLeft>();
 
     }
 
@@ -166,7 +167,7 @@ public class charactermovementscript : MonoBehaviour
                     theText.gameObject.SetActive(false);
                     theButton.gameObject.SetActive(true);
                     menuReturn.gameObject.SetActive(true);
-                    //nextScene.gameObject.SetActive(true);
+                    nextScene.gameObject.SetActive(true);
                 }
                 break;
 
@@ -195,18 +196,17 @@ public class charactermovementscript : MonoBehaviour
 
     private void setupMovement(Vector3 desiredDestination)
     {
-        if (isInsideArea(desiredDestination))
+        
+        if (!Physics.CheckSphere(desiredDestination, 0.45f))
         {
-            if (!Physics.CheckSphere(desiredDestination, 0.45f))
-            {
                 startLocation = transform.position;
                 timer = 0;
                 desiredLocation = desiredDestination;
                 isCurrently = characterStates.Moving;
-            }
-
-
         }
+
+
+        
 
 
     }
