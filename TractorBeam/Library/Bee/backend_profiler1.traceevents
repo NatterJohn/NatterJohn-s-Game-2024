@@ -1,572 +1,581 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1709654756558395, "dur":5226, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756563627, "dur":42, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1709654756563679, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1709654756563691, "dur":699, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1709654756564423, "dur":552, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756564975, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756740942, "dur":181, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741124, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741148, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741150, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741169, "dur":40, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741209, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741222, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741223, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741228, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741229, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741233, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741234, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741241, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741242, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741245, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741247, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741251, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741252, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741255, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741257, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741261, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741262, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741265, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741266, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741271, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741273, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741276, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741277, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741281, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741283, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741287, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741288, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741292, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741305, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756741327, "dur":1798, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1709654756566665, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1709654756566665, "dur":4670, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1709654756571336, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1709654756571886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1709654756581277, "dur":14389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1709654756595707, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1709654756595767, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1709654756595905, "dur":10052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1709654756606000, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1709654756606040, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1709654756606043, "dur":22544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1709654756628640, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1709654756628708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1709654756628712, "dur":13295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1709654756642044, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1709654756642080, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1709654756642082, "dur":16149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1709654756658267, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1709654756658307, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1709654756658309, "dur":8920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1709654756667263, "dur":3360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1709654756670625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1709654756670628, "dur":14501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1709654756685167, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1709654756685204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1709654756685207, "dur":33397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1709654756718664, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/level6" }}
-,{ "pid":12345, "tid":1, "ts":1709654756718724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1709654756718730, "dur":11469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/level6" }}
-,{ "pid":12345, "tid":1, "ts":1709654756730243, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1709654756730283, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1709654756730285, "dur":5980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1709654756736311, "dur":4632, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1709654756565626, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1709654756565627, "dur":5696, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1709654756571334, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1709654756571534, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1709654756586496, "dur":19123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1709654756605669, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1709654756605724, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1709654756605727, "dur":21911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1709654756627695, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1709654756627768, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1709654756627806, "dur":10304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1709654756638146, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1709654756638181, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1709654756638183, "dur":11113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1709654756649330, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1709654756649367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1709654756649371, "dur":15964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1709654756665371, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1709654756665406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1709654756665409, "dur":16422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1709654756681867, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1709654756681899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1709654756681902, "dur":40006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1709654756721967, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/level5" }}
-,{ "pid":12345, "tid":2, "ts":1709654756722021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1709654756722024, "dur":9340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/level5" }}
-,{ "pid":12345, "tid":2, "ts":1709654756731398, "dur":9548, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1709654756565978, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1709654756565979, "dur":5365, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1709654756571344, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1709654756571525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1709654756575922, "dur":8008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1709654756583969, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":3, "ts":1709654756584044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1709654756584047, "dur":43671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":3, "ts":1709654756627782, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1709654756627839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1709654756627843, "dur":13292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1709654756641171, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1709654756641206, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1709654756641208, "dur":11092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1709654756652336, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1709654756652374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1709654756652377, "dur":13439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1709654756665845, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1709654756665876, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1709654756665879, "dur":19055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1709654756684982, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1709654756685030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1709654756685033, "dur":21078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":3, "ts":1709654756706161, "dur":25108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":3, "ts":1709654756731271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1709654756731274, "dur":6387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":3, "ts":1709654756737692, "dur":3265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1709654756566050, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1709654756566050, "dur":5258, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1709654756571325, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1709654756571537, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1709654756587914, "dur":16722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1709654756604692, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1709654756604738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1709654756604741, "dur":23140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1709654756627942, "dur":8992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":4, "ts":1709654756636937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1709654756636941, "dur":15770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":4, "ts":1709654756652745, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1709654756652776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1709654756652779, "dur":16061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1709654756668874, "dur":3001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1709654756671877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1709654756671880, "dur":14410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1709654756686333, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":4, "ts":1709654756686366, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1709654756686368, "dur":15855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":4, "ts":1709654756702253, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":4, "ts":1709654756702285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1709654756702288, "dur":23673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":4, "ts":1709654756725999, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/level3.resS" }}
-,{ "pid":12345, "tid":4, "ts":1709654756726049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1709654756726054, "dur":11416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/level3.resS" }}
-,{ "pid":12345, "tid":4, "ts":1709654756737501, "dur":3454, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1709654756565771, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1709654756565772, "dur":5537, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1709654756571324, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1709654756571514, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1709654756577671, "dur":8171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1709654756585898, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":5, "ts":1709654756585998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1709654756586195, "dur":7675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":5, "ts":1709654756593905, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam.exe" }}
-,{ "pid":12345, "tid":5, "ts":1709654756593943, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1709654756593945, "dur":12547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam.exe" }}
-,{ "pid":12345, "tid":5, "ts":1709654756606529, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1709654756606581, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1709654756606583, "dur":21495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1709654756628138, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1709654756628222, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1709654756628226, "dur":16512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1709654756644772, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1709654756644807, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1709654756644809, "dur":12268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1709654756657112, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1709654756657149, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1709654756657152, "dur":17644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1709654756674829, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":5, "ts":1709654756674864, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1709654756674866, "dur":12061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":5, "ts":1709654756686968, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":5, "ts":1709654756687006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1709654756687032, "dur":16361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":5, "ts":1709654756703432, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1709654756703469, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1709654756703496, "dur":19863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":5, "ts":1709654756723405, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/level4.resS" }}
-,{ "pid":12345, "tid":5, "ts":1709654756723446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1709654756723451, "dur":13210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/level4.resS" }}
-,{ "pid":12345, "tid":5, "ts":1709654756736701, "dur":4257, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1709654756565489, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1709654756565490, "dur":5813, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1709654756571324, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":6, "ts":1709654756571327, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1709654756571515, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/app.info" }}
-,{ "pid":12345, "tid":6, "ts":1709654756571518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1709654756584338, "dur":14908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/app.info" }}
-,{ "pid":12345, "tid":6, "ts":1709654756599248, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1709654756599322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1709654756599367, "dur":12487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1709654756611889, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1709654756611929, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1709654756611932, "dur":20542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1709654756632524, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1709654756632571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1709654756632575, "dur":14031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1709654756646643, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1709654756646680, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1709654756646682, "dur":12090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1709654756658805, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1709654756658841, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1709654756658843, "dur":11349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1709654756670246, "dur":638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":6, "ts":1709654756670886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1709654756670889, "dur":18605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":6, "ts":1709654756689541, "dur":5686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":6, "ts":1709654756695229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1709654756695232, "dur":18334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":6, "ts":1709654756713601, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/level7" }}
-,{ "pid":12345, "tid":6, "ts":1709654756713634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1709654756713636, "dur":16499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/level7" }}
-,{ "pid":12345, "tid":6, "ts":1709654756730186, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/level0.resS" }}
-,{ "pid":12345, "tid":6, "ts":1709654756730244, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1709654756730247, "dur":7775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/level0.resS" }}
-,{ "pid":12345, "tid":6, "ts":1709654756738057, "dur":2890, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1709654756565870, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1709654756565870, "dur":5463, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1709654756571334, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1709654756571711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1709654756574900, "dur":8858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1709654756583815, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1709654756583937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1709654756583941, "dur":20757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1709654756604756, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1709654756604815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1709654756604819, "dur":23606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1709654756628499, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1709654756628573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1709654756628577, "dur":15085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1709654756643709, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1709654756643751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1709654756643754, "dur":16592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1709654756660390, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1709654756660429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1709654756660456, "dur":13728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1709654756674219, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":7, "ts":1709654756674253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1709654756674256, "dur":7361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":7, "ts":1709654756681653, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":7, "ts":1709654756681687, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1709654756681689, "dur":10978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":7, "ts":1709654756692701, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":7, "ts":1709654756692736, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1709654756692738, "dur":13158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":7, "ts":1709654756705939, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1709654756705982, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1709654756705985, "dur":22586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1709654756728617, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/level2" }}
-,{ "pid":12345, "tid":7, "ts":1709654756728653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1709654756728678, "dur":7424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/level2" }}
-,{ "pid":12345, "tid":7, "ts":1709654756736150, "dur":4798, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1709654756566372, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1709654756566373, "dur":5038, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1709654756571412, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1709654756571607, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1709654756578927, "dur":9390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1709654756588350, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":8, "ts":1709654756588554, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1709654756588556, "dur":45545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":8, "ts":1709654756634137, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1709654756634173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1709654756634176, "dur":13679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1709654756647896, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1709654756648038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1709654756648041, "dur":9767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1709654756657843, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1709654756657877, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1709654756657879, "dur":11737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1709654756669649, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1709654756669688, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1709654756669694, "dur":20081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1709654756689816, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/sharedassets7.assets" }}
-,{ "pid":12345, "tid":8, "ts":1709654756689856, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1709654756689858, "dur":16209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/sharedassets7.assets" }}
-,{ "pid":12345, "tid":8, "ts":1709654756706111, "dur":27605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":8, "ts":1709654756733718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1709654756733721, "dur":3640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":8, "ts":1709654756737412, "dur":3548, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1709654756566193, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1709654756566193, "dur":5113, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1709654756571325, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":9, "ts":1709654756571501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1709654756580538, "dur":12398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":9, "ts":1709654756592971, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":9, "ts":1709654756593268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1709654756593271, "dur":7001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":9, "ts":1709654756600317, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1709654756600368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1709654756600373, "dur":28070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1709654756628487, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1709654756628538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1709654756628569, "dur":8537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1709654756637143, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1709654756637178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1709654756637181, "dur":13578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1709654756650789, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1709654756650821, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1709654756650823, "dur":13063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1709654756663917, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1709654756663949, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1709654756663951, "dur":10581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1709654756674564, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":9, "ts":1709654756674596, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1709654756674599, "dur":14722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":9, "ts":1709654756689356, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":9, "ts":1709654756689393, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1709654756689395, "dur":7997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":9, "ts":1709654756697426, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":9, "ts":1709654756697464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1709654756697468, "dur":26548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":9, "ts":1709654756724059, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/level4" }}
-,{ "pid":12345, "tid":9, "ts":1709654756724098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1709654756724101, "dur":9151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/level4" }}
-,{ "pid":12345, "tid":9, "ts":1709654756733297, "dur":7648, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1709654756566538, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1709654756566539, "dur":4766, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1709654756571325, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":10, "ts":1709654756571507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1709654756576922, "dur":9975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":10, "ts":1709654756586929, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":10, "ts":1709654756587010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1709654756587045, "dur":16870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":10, "ts":1709654756603961, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1709654756604012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1709654756604017, "dur":22466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1709654756626554, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1709654756626638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1709654756626649, "dur":12134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1709654756638816, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1709654756638848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1709654756638851, "dur":12318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1709654756651207, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1709654756651248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1709654756651251, "dur":16451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1709654756667733, "dur":7309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":10, "ts":1709654756675044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1709654756675047, "dur":9796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":10, "ts":1709654756684909, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":10, "ts":1709654756684954, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1709654756684957, "dur":20987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":10, "ts":1709654756706001, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":10, "ts":1709654756706064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1709654756706067, "dur":11925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":10, "ts":1709654756718084, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/level6.resS" }}
-,{ "pid":12345, "tid":10, "ts":1709654756718154, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1709654756718176, "dur":11480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/level6.resS" }}
-,{ "pid":12345, "tid":10, "ts":1709654756729702, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/level1" }}
-,{ "pid":12345, "tid":10, "ts":1709654756729768, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1709654756729771, "dur":7449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/level1" }}
-,{ "pid":12345, "tid":10, "ts":1709654756737265, "dur":3691, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1709654756566648, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1709654756566649, "dur":4690, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1709654756571340, "dur":445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1709654756571786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1709654756574118, "dur":9718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1709654756583893, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":11, "ts":1709654756584030, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1709654756584033, "dur":14674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":11, "ts":1709654756598770, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1709654756598826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1709654756598832, "dur":14370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1709654756613237, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1709654756613271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1709654756613274, "dur":17391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1709654756630725, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1709654756630776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1709654756630782, "dur":12809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1709654756643643, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1709654756643686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1709654756643690, "dur":9385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1709654756653107, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1709654756653141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1709654756653144, "dur":8527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1709654756661708, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1709654756661745, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1709654756661747, "dur":9891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1709654756671674, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":11, "ts":1709654756671717, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1709654756671719, "dur":13896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":11, "ts":1709654756685645, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":11, "ts":1709654756685679, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1709654756685681, "dur":9320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":11, "ts":1709654756695038, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1709654756695072, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1709654756695074, "dur":15737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1709654756710844, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/resources.assets" }}
-,{ "pid":12345, "tid":11, "ts":1709654756710882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1709654756710885, "dur":16870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/resources.assets" }}
-,{ "pid":12345, "tid":11, "ts":1709654756727793, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/level2.resS" }}
-,{ "pid":12345, "tid":11, "ts":1709654756727834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1709654756727837, "dur":9150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/level2.resS" }}
-,{ "pid":12345, "tid":11, "ts":1709654756737025, "dur":3943, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1709654756566767, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1709654756566767, "dur":4562, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1709654756571330, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":12, "ts":1709654756571527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1709654756582295, "dur":13592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":12, "ts":1709654756595931, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1709654756595982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1709654756596019, "dur":10601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1709654756606688, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1709654756606729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1709654756606732, "dur":21612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1709654756628404, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1709654756628482, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1709654756628484, "dur":15345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1709654756643872, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1709654756643928, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1709654756643930, "dur":12462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1709654756656428, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1709654756656463, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1709654756656466, "dur":15925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1709654756672425, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":12, "ts":1709654756672458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1709654756672461, "dur":14619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":12, "ts":1709654756687115, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":12, "ts":1709654756687152, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1709654756687154, "dur":13173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":12, "ts":1709654756700358, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1709654756700389, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1709654756700391, "dur":21145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1709654756721581, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/level5.resS" }}
-,{ "pid":12345, "tid":12, "ts":1709654756721632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1709654756721638, "dur":9232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/level5.resS" }}
-,{ "pid":12345, "tid":12, "ts":1709654756730907, "dur":8411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/boot.config" }}
-,{ "pid":12345, "tid":12, "ts":1709654756739320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1709654756739324, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/boot.config" }}
-,{ "pid":12345, "tid":12, "ts":1709654756740904, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":12, "ts":1709654756740905, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1709654756566918, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1709654756566919, "dur":4424, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1709654756571344, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":13, "ts":1709654756571643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1709654756589776, "dur":17383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":13, "ts":1709654756607190, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1709654756607229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1709654756607232, "dur":20773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1709654756628087, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1709654756628154, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1709654756628158, "dur":12890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1709654756641090, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1709654756641154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1709654756641157, "dur":13501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1709654756654693, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":13, "ts":1709654756654756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1709654756654759, "dur":16105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":13, "ts":1709654756670902, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":13, "ts":1709654756670944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1709654756670947, "dur":11880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":13, "ts":1709654756682863, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":13, "ts":1709654756682898, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1709654756682900, "dur":15618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":13, "ts":1709654756698552, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":13, "ts":1709654756698584, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1709654756698586, "dur":9699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":13, "ts":1709654756708316, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":13, "ts":1709654756708349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1709654756708351, "dur":20530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":13, "ts":1709654756728923, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/level1.resS" }}
-,{ "pid":12345, "tid":13, "ts":1709654756728961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1709654756728963, "dur":7430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/level1.resS" }}
-,{ "pid":12345, "tid":13, "ts":1709654756736448, "dur":4492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1709654756566983, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1709654756566983, "dur":4357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1709654756571341, "dur":540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":14, "ts":1709654756571884, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1709654756573874, "dur":21214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":14, "ts":1709654756595141, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":14, "ts":1709654756595251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1709654756595601, "dur":36038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":14, "ts":1709654756631699, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1709654756631768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1709654756631772, "dur":14405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1709654756646211, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1709654756646246, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1709654756646248, "dur":15912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1709654756662193, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1709654756662229, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1709654756662231, "dur":13969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1709654756676233, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":14, "ts":1709654756676271, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1709654756676273, "dur":12761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":14, "ts":1709654756689076, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":14, "ts":1709654756689117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1709654756689121, "dur":10256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":14, "ts":1709654756699410, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":14, "ts":1709654756699443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1709654756699445, "dur":30714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":14, "ts":1709654756730251, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":14, "ts":1709654756730300, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1709654756730302, "dur":6996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":14, "ts":1709654756737337, "dur":3614, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1709654756567033, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1709654756567034, "dur":4307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1709654756571342, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":15, "ts":1709654756571534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1709654756586089, "dur":19548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":15, "ts":1709654756605674, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1709654756605716, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1709654756605720, "dur":22874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1709654756628642, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1709654756628693, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1709654756628695, "dur":15290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1709654756644019, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1709654756644057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1709654756644059, "dur":16766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1709654756660858, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1709654756660893, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1709654756660895, "dur":11868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1709654756672799, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":15, "ts":1709654756672853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1709654756672856, "dur":16846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":15, "ts":1709654756689740, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":15, "ts":1709654756689776, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1709654756689812, "dur":8029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":15, "ts":1709654756697874, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":15, "ts":1709654756697918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1709654756697921, "dur":29818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":15, "ts":1709654756727773, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/level3" }}
-,{ "pid":12345, "tid":15, "ts":1709654756727811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1709654756727814, "dur":7730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/level3" }}
-,{ "pid":12345, "tid":15, "ts":1709654756735604, "dur":5338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1709654756567307, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1709654756567307, "dur":4017, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1709654756571325, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":16, "ts":1709654756571501, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1709654756573674, "dur":21747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":16, "ts":1709654756595461, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1709654756595504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1709654756595811, "dur":10588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1709654756606452, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1709654756606499, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1709654756606501, "dur":20958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1709654756627506, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1709654756627603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1709654756627607, "dur":12622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1709654756640281, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1709654756640335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1709654756640340, "dur":18764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1709654756659141, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1709654756659178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1709654756659181, "dur":11575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":16, "ts":1709654756670800, "dur":2456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":16, "ts":1709654756673259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1709654756673263, "dur":6688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":16, "ts":1709654756679982, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":16, "ts":1709654756680015, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1709654756680017, "dur":10948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":16, "ts":1709654756691000, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":16, "ts":1709654756691032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1709654756691034, "dur":20619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":16, "ts":1709654756711686, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/level7.resS" }}
-,{ "pid":12345, "tid":16, "ts":1709654756711722, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1709654756711724, "dur":18880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/level7.resS" }}
-,{ "pid":12345, "tid":16, "ts":1709654756730641, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha3/TractorBeam_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":16, "ts":1709654756730678, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1709654756730680, "dur":7553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha3/TractorBeam_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":16, "ts":1709654756738263, "dur":2681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1709654756745274, "dur":1834, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1709895426539796, "dur":5899, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426545704, "dur":74, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1709895426545808, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1709895426545822, "dur":758, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1709895426546617, "dur":520, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426547137, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756473, "dur":199, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756672, "dur":177, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756849, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756856, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756872, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756876, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756882, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756884, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756890, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756891, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756897, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756899, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756903, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756905, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756911, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756913, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756919, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756920, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756925, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756927, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756931, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756933, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756938, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756939, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756944, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756946, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756950, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756952, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756957, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756958, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756963, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756965, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756971, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426756991, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426757016, "dur":4277, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1709895426547734, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709895426547735, "dur":3592, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709895426551328, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1709895426551508, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709895426558444, "dur":7146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1709895426565619, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709895426565702, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709895426565731, "dur":14447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709895426580213, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709895426580245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709895426580249, "dur":14701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709895426594977, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709895426595005, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709895426595030, "dur":10078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709895426605151, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709895426605187, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709895426605190, "dur":8440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709895426613660, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709895426613690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709895426613693, "dur":10682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709895426624410, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709895426624446, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709895426624449, "dur":25755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709895426650268, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709895426650308, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709895426650311, "dur":23243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709895426673579, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709895426673606, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709895426673608, "dur":13286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709895426686920, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1709895426686950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709895426686981, "dur":6842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1709895426693860, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1709895426693904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709895426693909, "dur":14382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1709895426708363, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/level6.resS" }}
+,{ "pid":12345, "tid":1, "ts":1709895426708422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709895426708428, "dur":17831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/level6.resS" }}
+,{ "pid":12345, "tid":1, "ts":1709895426726313, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1709895426726393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709895426726399, "dur":10580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1709895426737066, "dur":19403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709895426547496, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709895426547497, "dur":3786, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709895426551307, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1709895426551310, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709895426551502, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1709895426551506, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709895426557221, "dur":14831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1709895426572054, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1709895426572163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709895426572488, "dur":28735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1709895426601272, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709895426601330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709895426601334, "dur":20553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709895426621931, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709895426622014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709895426622018, "dur":28389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709895426650455, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709895426650486, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709895426650488, "dur":15119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709895426665637, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709895426665669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709895426665672, "dur":13008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709895426678709, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709895426678745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709895426678750, "dur":18977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709895426697752, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1709895426697779, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709895426697781, "dur":10967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1709895426708806, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/level6" }}
+,{ "pid":12345, "tid":2, "ts":1709895426708863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709895426708866, "dur":15819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/level6" }}
+,{ "pid":12345, "tid":2, "ts":1709895426724767, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1709895426724858, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709895426724861, "dur":14639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1709895426739568, "dur":16925, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709895426548128, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709895426548129, "dur":3155, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709895426551307, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1709895426551496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709895426554430, "dur":10558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1709895426565068, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709895426565168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709895426565463, "dur":5922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709895426571456, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam.exe" }}
+,{ "pid":12345, "tid":3, "ts":1709895426571517, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709895426571522, "dur":7991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam.exe" }}
+,{ "pid":12345, "tid":3, "ts":1709895426579557, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709895426579602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709895426579605, "dur":7729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709895426587384, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709895426587421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709895426587425, "dur":17673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709895426605144, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709895426605185, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709895426605188, "dur":11097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709895426616322, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709895426616362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709895426616365, "dur":30519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709895426646920, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709895426646973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709895426647004, "dur":24531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709895426671582, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709895426671624, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709895426671627, "dur":18304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709895426689968, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":3, "ts":1709895426690006, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709895426690008, "dur":12671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":3, "ts":1709895426702712, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/level8.resS" }}
+,{ "pid":12345, "tid":3, "ts":1709895426702752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709895426702787, "dur":16231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/level8.resS" }}
+,{ "pid":12345, "tid":3, "ts":1709895426719146, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/level4.resS" }}
+,{ "pid":12345, "tid":3, "ts":1709895426719260, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709895426719272, "dur":16924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/level4.resS" }}
+,{ "pid":12345, "tid":3, "ts":1709895426736288, "dur":20182, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709895426547584, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709895426547584, "dur":3744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709895426551329, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1709895426551531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709895426561385, "dur":10881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1709895426572295, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709895426572328, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709895426572717, "dur":10170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709895426582918, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709895426582953, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709895426582956, "dur":13156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709895426596138, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709895426596164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709895426596167, "dur":18918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709895426615111, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709895426615143, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709895426615146, "dur":29612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709895426644786, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709895426644844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709895426644847, "dur":18243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709895426663115, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709895426663142, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709895426663144, "dur":17884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709895426681055, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709895426681084, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709895426681087, "dur":15653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709895426696769, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1709895426696798, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709895426696801, "dur":27862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1709895426724754, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1709895426724855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709895426724859, "dur":13460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1709895426738454, "dur":18034, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709895426547853, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709895426547853, "dur":3458, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709895426551312, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1709895426551718, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709895426567073, "dur":18671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1709895426585783, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709895426585827, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709895426585877, "dur":16582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709895426602511, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709895426602560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709895426602564, "dur":11899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709895426614491, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709895426614526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709895426614529, "dur":32594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709895426647155, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709895426647188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709895426647191, "dur":15584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709895426662805, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709895426662834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709895426662837, "dur":13227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709895426676090, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709895426676123, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709895426676125, "dur":16132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709895426692281, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1709895426692333, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709895426692335, "dur":50159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1709895426742537, "dur":13965, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709895426547943, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709895426547943, "dur":3366, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709895426551309, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1709895426551504, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709895426556039, "dur":11330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1709895426567398, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1709895426567578, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709895426567580, "dur":9758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1709895426577395, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709895426577470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709895426577517, "dur":11259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709895426588814, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709895426588862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709895426588868, "dur":13313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709895426602226, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709895426602282, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709895426602285, "dur":19900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709895426622238, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709895426622403, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709895426622406, "dur":24850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709895426647298, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709895426647338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709895426647342, "dur":18548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709895426665946, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709895426665999, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709895426666001, "dur":15336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709895426681362, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709895426681397, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709895426681399, "dur":23510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709895426704947, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/level8" }}
+,{ "pid":12345, "tid":6, "ts":1709895426704984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709895426704988, "dur":16312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/level8" }}
+,{ "pid":12345, "tid":6, "ts":1709895426721401, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1709895426721508, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709895426721516, "dur":14035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1709895426735618, "dur":11860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1709895426747481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709895426747485, "dur":2756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1709895426750286, "dur":6190, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709895426548001, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709895426548002, "dur":3311, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709895426551313, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1709895426551781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709895426568541, "dur":17214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1709895426585788, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709895426585838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709895426585873, "dur":12506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709895426598409, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709895426598438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709895426598442, "dur":8680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709895426607148, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709895426607178, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709895426607181, "dur":11757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709895426618990, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709895426619023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709895426619026, "dur":15426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709895426634480, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709895426634513, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709895426634515, "dur":23050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709895426657610, "dur":3462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709895426661075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709895426661078, "dur":10620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709895426671731, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709895426671766, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709895426671768, "dur":18432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709895426690224, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":7, "ts":1709895426690250, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709895426690252, "dur":15412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":7, "ts":1709895426705697, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/level7" }}
+,{ "pid":12345, "tid":7, "ts":1709895426705732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709895426705736, "dur":16865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/level7" }}
+,{ "pid":12345, "tid":7, "ts":1709895426722703, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1709895426722800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709895426722807, "dur":18105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1709895426740987, "dur":15504, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709895426548279, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709895426548279, "dur":3010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709895426551307, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1709895426551595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709895426565360, "dur":11952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1709895426577368, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709895426577436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709895426577444, "dur":9217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709895426586766, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709895426586829, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709895426586835, "dur":15148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709895426602028, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709895426602062, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709895426602065, "dur":17367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709895426619464, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709895426619514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709895426619517, "dur":31490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709895426651037, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709895426651072, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709895426651083, "dur":17667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709895426668775, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709895426668802, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709895426668804, "dur":16618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709895426685447, "dur":3275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709895426688754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709895426688758, "dur":12354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709895426701142, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1709895426701174, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709895426701177, "dur":20197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1709895426721500, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/level3.resS" }}
+,{ "pid":12345, "tid":8, "ts":1709895426721592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709895426721595, "dur":16682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/level3.resS" }}
+,{ "pid":12345, "tid":8, "ts":1709895426738364, "dur":18103, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709895426548320, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709895426548321, "dur":2991, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709895426551312, "dur":522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1709895426551854, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709895426572003, "dur":27369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1709895426599412, "dur":3233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709895426602648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709895426602652, "dur":15111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709895426617804, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709895426617847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709895426617851, "dur":31807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709895426649691, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709895426649726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709895426649730, "dur":23468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709895426673237, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709895426673268, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709895426673271, "dur":18436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709895426691755, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1709895426691792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709895426691795, "dur":13120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1709895426704953, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/level7.resS" }}
+,{ "pid":12345, "tid":9, "ts":1709895426705003, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709895426705006, "dur":19089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/level7.resS" }}
+,{ "pid":12345, "tid":9, "ts":1709895426724172, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/level2.resS" }}
+,{ "pid":12345, "tid":9, "ts":1709895426724284, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709895426724291, "dur":16904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/level2.resS" }}
+,{ "pid":12345, "tid":9, "ts":1709895426741268, "dur":15229, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709895426548389, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709895426548389, "dur":2941, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709895426551331, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1709895426551508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709895426559447, "dur":6388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1709895426565873, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709895426566062, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709895426566085, "dur":26777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709895426592894, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709895426592933, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709895426592937, "dur":17112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709895426610078, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709895426610107, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709895426610109, "dur":11775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709895426621931, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709895426621979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709895426622021, "dur":20992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709895426643061, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709895426643098, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709895426643101, "dur":22685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709895426665828, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709895426665876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709895426665879, "dur":13234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709895426679154, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709895426679204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709895426679266, "dur":8471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709895426687768, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":10, "ts":1709895426687803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709895426687806, "dur":12386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":10, "ts":1709895426700219, "dur":30271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1709895426730499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709895426730505, "dur":15257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1709895426745846, "dur":10639, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709895426548424, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709895426548425, "dur":2904, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709895426551330, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1709895426551503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709895426555371, "dur":9362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1709895426564808, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1709895426564978, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709895426564983, "dur":14287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1709895426579313, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1709895426579366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709895426579376, "dur":14948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1709895426594356, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1709895426594388, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709895426594390, "dur":15454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1709895426609890, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1709895426609925, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709895426609929, "dur":24497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1709895426634459, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1709895426634494, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709895426634498, "dur":25759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1709895426660287, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1709895426660326, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709895426660330, "dur":10881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1709895426671261, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1709895426671292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709895426671295, "dur":20520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1709895426691847, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":11, "ts":1709895426691881, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709895426691883, "dur":10465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":11, "ts":1709895426702383, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1709895426702426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709895426702432, "dur":16186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1709895426718737, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/level5" }}
+,{ "pid":12345, "tid":11, "ts":1709895426718850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709895426718863, "dur":12461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/level5" }}
+,{ "pid":12345, "tid":11, "ts":1709895426731390, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1709895426731449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709895426731540, "dur":14210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1709895426745824, "dur":10679, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709895426548466, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709895426548466, "dur":2844, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709895426551310, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1709895426551535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709895426563655, "dur":37922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1709895426601625, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709895426601679, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709895426601683, "dur":17646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709895426619369, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709895426619420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709895426619423, "dur":23647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709895426643123, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709895426643157, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709895426643160, "dur":14605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709895426657800, "dur":6299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709895426664103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709895426664107, "dur":15956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709895426680090, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709895426680121, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709895426680124, "dur":18935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709895426699093, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1709895426699134, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709895426699136, "dur":14349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1709895426713570, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/level5.resS" }}
+,{ "pid":12345, "tid":12, "ts":1709895426713666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709895426713677, "dur":16771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/level5.resS" }}
+,{ "pid":12345, "tid":12, "ts":1709895426730499, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1709895426730569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709895426730572, "dur":14884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1709895426745515, "dur":10989, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1709895426548505, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1709895426548505, "dur":2808, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1709895426551314, "dur":479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1709895426551794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1709895426570240, "dur":46017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1709895426616292, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1709895426616334, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1709895426616337, "dur":21436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1709895426637806, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1709895426637860, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1709895426637864, "dur":23582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1709895426661480, "dur":6447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":13, "ts":1709895426667930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1709895426667934, "dur":7804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":13, "ts":1709895426675766, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1709895426675797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1709895426675801, "dur":18984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1709895426694816, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1709895426694867, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1709895426694870, "dur":40625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1709895426735559, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1709895426735625, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1709895426735627, "dur":9424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1709895426745113, "dur":11397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1709895426548530, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1709895426548531, "dur":2777, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1709895426551308, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1709895426551516, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1709895426560515, "dur":12701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1709895426573271, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709895426573336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1709895426573370, "dur":9757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709895426583155, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709895426583187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1709895426583190, "dur":14187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709895426597408, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709895426597438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1709895426597442, "dur":19250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709895426616735, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709895426616811, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1709895426616813, "dur":12767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709895426629609, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709895426629637, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1709895426629641, "dur":12704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709895426642375, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709895426642408, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1709895426642411, "dur":19576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709895426662014, "dur":9183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709895426671201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1709895426671207, "dur":13305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709895426684540, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709895426684568, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1709895426684571, "dur":9656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1709895426694255, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":14, "ts":1709895426694283, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1709895426694285, "dur":40045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":14, "ts":1709895426734397, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":14, "ts":1709895426734453, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1709895426734455, "dur":13039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":14, "ts":1709895426747544, "dur":8935, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1709895426548559, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1709895426548560, "dur":2727, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1709895426551308, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1709895426551495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1709895426553592, "dur":11256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1709895426564905, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1709895426564995, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1709895426564998, "dur":17469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1709895426582517, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709895426582566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1709895426582570, "dur":10417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709895426593020, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709895426593050, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1709895426593053, "dur":8934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709895426602027, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709895426602073, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1709895426602076, "dur":20505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709895426622643, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709895426622706, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1709895426622710, "dur":16697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709895426639437, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709895426639466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1709895426639469, "dur":20609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709895426660128, "dur":6165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709895426666296, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1709895426666301, "dur":10558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709895426676889, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709895426676917, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1709895426676920, "dur":20967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1709895426697914, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1709895426697949, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1709895426697951, "dur":58422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1709895426756415, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":15, "ts":1709895426756418, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1709895426548646, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1709895426548646, "dur":2664, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1709895426551311, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1709895426551494, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1709895426554022, "dur":10692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1709895426564782, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1709895426564907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1709895426564912, "dur":34680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1709895426599637, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1709895426599681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1709895426599686, "dur":17916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1709895426617646, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1709895426617698, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1709895426617703, "dur":26442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1709895426644179, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1709895426644212, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1709895426644214, "dur":10103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1709895426654366, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1709895426654399, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1709895426654403, "dur":14139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1709895426668573, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1709895426668603, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1709895426668605, "dur":19148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1709895426687783, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":16, "ts":1709895426687817, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1709895426687819, "dur":12562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":16, "ts":1709895426700415, "dur":29651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TractorBeamAlpha4/TractorBeam_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":16, "ts":1709895426730071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1709895426730076, "dur":13001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TractorBeamAlpha4/TractorBeam_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":16, "ts":1709895426743187, "dur":13311, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709895426765357, "dur":3320, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
