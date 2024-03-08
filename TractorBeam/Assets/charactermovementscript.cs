@@ -16,6 +16,7 @@ public class charactermovementscript : MonoBehaviour
     private ITractorBeamable currentAsteroid;
     private Vector3 startLocation, desiredLocation, goalLocation;
     Quaternion startRotation, desiredRotation;
+    Quaternion mustBe;
     private float multiplier;
     [SerializeField] timeLeft counter;
 
@@ -49,7 +50,7 @@ public class charactermovementscript : MonoBehaviour
         nextScene = FindObjectOfType<gotothegame>();
         nextScene.gameObject.SetActive(false);
         counter = FindObjectOfType<timeLeft>();
-
+        mustBe = startRotation;
     }
 
     void Update()
@@ -57,27 +58,28 @@ public class charactermovementscript : MonoBehaviour
         switch(isCurrently)
         {
                 case characterStates.Waiting:
+                //if (startRotation == mustBe)
+                //{
+                    if (Input.GetKeyDown(KeyCode.W))
+                    {
+                        setupMovement(transform.position + snapPosition * Vector3.forward);
+                    }
 
-                if (Input.GetKeyDown(KeyCode.W))
-                {
-                    setupMovement(transform.position - snapPosition * transform.forward);
-                }
+                    if (Input.GetKeyDown(KeyCode.D))
+                    {
+                        setupMovement(transform.position + snapPosition * Vector3.right);
+                    }
 
-                if (Input.GetKeyDown(KeyCode.D))
-                {
-                    setupMovement(transform.position - snapPosition * transform.right);
-                }
+                    if (Input.GetKeyDown(KeyCode.A))
+                    {
+                        setupMovement(transform.position - snapPosition * Vector3.right);
+                    }
 
-                if (Input.GetKeyDown(KeyCode.A))
-                {
-                    setupMovement(transform.position + snapPosition * transform.right);
-                }
-
-                if (Input.GetKeyDown(KeyCode.S))
-                {
-                    setupMovement(transform.position + snapPosition * transform.forward);
-                }
-
+                    if (Input.GetKeyDown(KeyCode.S))
+                    {
+                        setupMovement(transform.position - snapPosition * Vector3.forward);
+                    }
+                //}
                 if (Input.GetKeyDown(KeyCode.UpArrow))
                 {
                     setupRotation(Vector3.forward);
