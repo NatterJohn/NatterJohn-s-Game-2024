@@ -58,28 +58,25 @@ public class charactermovementscript : MonoBehaviour
         switch(isCurrently)
         {
                 case characterStates.Waiting:
-                //if (startRotation == mustBe)
-                //{
-                    if (Input.GetKeyDown(KeyCode.W))
-                    {
-                        setupMovement(transform.position + snapPosition * Vector3.forward);
-                    }
+                if (Input.GetKeyDown(KeyCode.W))
+                {
+                    setupMovement(transform.position + snapPosition * Vector3.forward);
+                }
 
-                    if (Input.GetKeyDown(KeyCode.D))
-                    {
-                        setupMovement(transform.position + snapPosition * Vector3.right);
-                    }
+                if (Input.GetKeyDown(KeyCode.D))
+                {
+                    setupMovement(transform.position + snapPosition * Vector3.right);
+                }
 
-                    if (Input.GetKeyDown(KeyCode.A))
-                    {
-                        setupMovement(transform.position - snapPosition * Vector3.right);
-                    }
+                if (Input.GetKeyDown(KeyCode.A))
+                {
+                    setupMovement(transform.position - snapPosition * Vector3.right);
+                }
 
-                    if (Input.GetKeyDown(KeyCode.S))
-                    {
-                        setupMovement(transform.position - snapPosition * Vector3.forward);
-                    }
-                //}
+                if (Input.GetKeyDown(KeyCode.S))
+                {
+                    setupMovement(transform.position - snapPosition * Vector3.forward);
+                }
                 if (Input.GetKeyDown(KeyCode.UpArrow))
                 {
                     setupRotation(Vector3.forward);
