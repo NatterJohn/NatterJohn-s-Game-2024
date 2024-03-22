@@ -326,6 +326,7 @@
 "Assets/GoalStarScript.cs"
 "Assets/gotothegame.cs"
 "Assets/gridManager.cs"
+"Assets/keepPlaying.cs"
 "Assets/MainMenu.cs"
 "Assets/ReplayButton.cs"
 "Assets/RestartButton.cs"
