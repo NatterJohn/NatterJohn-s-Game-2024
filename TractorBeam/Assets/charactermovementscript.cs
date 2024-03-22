@@ -159,6 +159,7 @@ public class charactermovementscript : MonoBehaviour
                 counter.gameObject.SetActive(false);
                 restart.gameObject.SetActive(false);
                 altReturn.gameObject.SetActive(false);
+                theGoal.gameObject.SetActive(false);
                 completeTimer += Time.deltaTime;
                 theText.gameObject.SetActive(true);
                 if (completeTimer > textTime)
@@ -173,6 +174,7 @@ public class charactermovementscript : MonoBehaviour
                 case characterStates.Fail:
                 counter.gameObject.SetActive(false);
                 restart.gameObject.SetActive(false);
+                theGoal.gameObject.SetActive(false);
                 altReturn.gameObject.SetActive(false);
                 completeTimer += Time.deltaTime;
                 failure.gameObject.SetActive(true);
